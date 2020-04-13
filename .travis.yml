@@ -25,4 +25,4 @@ before_script:
 script:
   - cd cocotb/tests/test_cases/test_configuration
   - export SIM=ghdl
-  - make test
+  - make
