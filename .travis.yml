@@ -15,6 +15,7 @@ before_script:
   - git clone https://github.com/tgingold/ghdl.git ghdl
   - git clone https://github.com/cocotb/cocotb.git
   - cd ghdl
+  - ./configure
   - make
   - sudo make install
   - cd ../cocotb
